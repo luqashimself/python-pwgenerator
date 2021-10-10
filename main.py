@@ -1,7 +1,7 @@
 import string
 import random
 
-chars = list(string.ascii_letters + string.digits + "!@#$%^&*()")
+chars = list(string.ascii_letters + "!@#$%^&*()" + string.digits)
 def generate_random_password():
 	l = int(9)
 	random.shuffle(chars)
